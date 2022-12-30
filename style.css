@@ -7,15 +7,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lora', serif; ;
    
 }
 
-body{
-    background: #13292A;
-       
-}
+
 
 /* HEADER */
+
+.date{
+    font-size: 1rem;
+    margin-bottom: 40px;
+    padding: 0 10px;
+
+}
+
+
+
 h1{
     font-family: 'Montserrat', sans-serif;
     color: #E7DED9;
@@ -72,7 +80,6 @@ border-radius: 50%;
     border: #988780 1px solid;
     width: 150px;
     padding: 10px;
-    
     background-color:#E7DED9;
 }
 
@@ -87,12 +94,10 @@ footer{
 }
 
 
-footer{
-    text-align: center;
-}
 
-.contact{
+.footer{
     margin: 30px;
+    align-items: center;
 }
 
 .maps{
@@ -105,7 +110,13 @@ footer{
 /* DESKTOP */
 
 @media  screen and (min-width: 1024px) {
-   
+    
+    .date{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
     .logo {
         height: 10rem;
         width: 10rem;
