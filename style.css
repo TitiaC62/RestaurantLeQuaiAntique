@@ -1,22 +1,28 @@
 /* IMPORT POLICES */
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
    
 }
 
-.body{
+body{
     background: #13292A;
-    
+       
 }
 
 /* HEADER */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #E7DED9;
+    text-align: center;
+    
+}
+
 .logo{
     height: 5rem;
     width: 5rem;
@@ -40,6 +46,8 @@ nav,
 #icons-accueil{
     visibility: hidden;
 }
+
+
 
 /* BODY */
 
@@ -71,16 +79,33 @@ border-radius: 50%;
 
 /* FOOTER */
 
+#menu-burger,
 footer{
     background-color: #988780;
+    padding: 15px;
+        
 }
 
+
+footer{
+    text-align: center;
+}
+
+.contact{
+    margin: 30px;
+}
+
+.maps{
+    box-sizing: border-box;
+    padding: 0;
+}
 
 
 
 /* DESKTOP */
 
 @media  screen and (min-width: 1024px) {
+   
     .logo {
         height: 10rem;
         width: 10rem;
@@ -94,8 +119,6 @@ footer{
         background-color: #988780;
         
     }
-
-    
 
     #navbar-expand{
         visibility: visible;
@@ -116,5 +139,14 @@ footer{
         top: 647px;
         border-radius: 50%;
     }
+
+    footer{
+        padding: 30px;
+        font-size: large;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    
 
 }
