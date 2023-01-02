@@ -7,11 +7,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', serif; ;
+    font-family: 'Lora', serif; 
+    color: #E7DED9;
    
 }
 
-
+.background{
+    background-color: #13292A;
+}
 
 /* HEADER */
 
@@ -24,9 +27,9 @@
 
 
 
-h1{
+.title{
     font-family: 'Montserrat', sans-serif;
-    color: #E7DED9;
+   
     text-align: center;
     
 }
