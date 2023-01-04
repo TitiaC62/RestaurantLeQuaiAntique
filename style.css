@@ -22,9 +22,7 @@
     font-size: 1rem;
     margin-bottom: 40px;
     padding: 0 10px;
-
 }
-
 
 
 .title{
@@ -63,8 +61,8 @@ nav,
 /* BODY */
 
 .slide-accueil{
-    width: 70vw;
-    height:45vw;
+    width: 60vw;
+    height: 25vw;
 }
 
 
