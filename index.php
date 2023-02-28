@@ -6,13 +6,16 @@
             <div id="SlideAccueil" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner ">
                 <div class="carousel-item active ">
-                    <img src="/Media/jason-leung-poI7DelFiVA-unsplash.jpg" class=" slide-accueil d-block mx-auto " alt="salle du restaurant">
+                    <img src="/Media/jason-leung-poI7DelFiVA-unsplash.jpg"
+                    class=" slide-accueil d-block mx-auto " alt="salle du restaurant">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Media/hd-wallpaper-g5d20ceffd_640.jpg" class=" slide-accueil d-block mx-auto" alt="terasse extérieure">
+                    <img src="/Media/hd-wallpaper-g5d20ceffd_640.jpg"
+                    class=" slide-accueil d-block mx-auto" alt="terasse extérieure">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Media/tapas-gcf82ec276_640.jpg" class=" slide-accueil d-block mx-auto" alt="plat de charcuterie">
+                    <img src="/Media/tapas-gcf82ec276_640.jpg"
+                    class=" slide-accueil d-block mx-auto" alt="plat de charcuterie">
                 </div>
                 </div>
             </div>
@@ -57,7 +60,7 @@
 
         <div>
             <div class="mb-5">
-                <p class="reservation mx-auto text-center py-3">Réservation</p>
+                <p href=# class="reservation mx-auto text-center py-3">Réservation</p>
             </div>
         </div>
 
