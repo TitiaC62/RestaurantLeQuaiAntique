@@ -208,6 +208,49 @@ p{
     background-color: grey;
 }
 
+
+/*CARTE */
+.titreh2{
+text-shadow: 1px 5px 5px #E7DED9 ;
+text-align: center;
+}
+ .titreh3{
+    color: #988780;
+    font-weight: bolder;
+    text-align: center;
+    
+    
+} 
+
+
+
+.title, .price{
+    display: flex;
+    
+    justify-content: space-between;
+    
+    
+}
+
+.paragrapheliste, ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul{
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+li{
+    padding: 3px;
+}
+
+.ingredients{
+    font-style: italic;
+}
+
+
 /* DESKTOP */
 
 @media  screen and (min-width: 1024px) {

@@ -29,7 +29,7 @@
                         <td> 11h-15h et 18h30-22h</td>
                     </tr>
                     <tr>
-                        <td>Samedi & Dimanche</td>
+                        <td>Samedi & Dimanche  </td>
                         <td> 11h-15h  et 18h30-00h</td>
                     </tr>
                 </tbody>
