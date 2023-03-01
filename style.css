@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lora', serif; 
+    font-family: 'Montserrat', sans-serif; ;
     color: #E7DED9;
    
 }
@@ -26,8 +26,7 @@
 
 
 .title{
-    font-family: 'Montserrat', sans-serif;
-   
+    font-family: 'Lora', sans-serif;
     text-align: center;
     
 }
@@ -58,12 +57,32 @@ nav,
 
 
 
-/* BODY */
+/* FOOTER */
 
-.slide-accueil{
-    width: 60vw;
-    height: 25vw;
+#menu-burger{
+    background-color: #988780;
+    padding: 15px;
+        
 }
+
+footer{
+    background-color: #988780;
+}
+
+.footer{
+    margin: 30px;
+    align-items: center;
+    
+}
+
+.maps{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+/* ACCUEIL : BODY */
+
 
 
 .img-line{
@@ -73,6 +92,12 @@ height: 70px;
 left: 73px;
 top: 509px;
 border-radius: 50%;
+object-fit: cover;
+}
+
+p{
+    padding: 5px;
+    font-family:  'Montserrat', sans-serif; ;
 }
 
 
@@ -82,35 +107,121 @@ border-radius: 50%;
     width: 150px;
     padding: 10px;
     background-color:#E7DED9;
-}
-
-
-/* FOOTER */
-
-#menu-burger,
-footer{
-    background-color: #988780;
-    padding: 15px;
-        
-}
-
-
-
-.footer{
-    margin: 30px;
     align-items: center;
 }
 
-.maps{
-    box-sizing: border-box;
-    padding: 0;
+/* GALERIE */
+
+.body-galerie{
+    height: auto;
+    width: 100vw;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 150px;
+    gap: 5px;
+    padding: 20px 20px;
+    height: auto;
+   
+
+}
+
+.grid-item{
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.grid-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.grid-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0, 0.6);
+    z-index: 2;
+}
+
+.grid-img:hover{
+    transform: scale(1.2);
+}
+
+#popup-bg{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
 }
 
 
+#popup-bg.active{
+    display: flex;
+}
+
+#popup-content{
+    max-width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#popup-img{
+    width: 100%;
+    height: auto;
+}
+
+
+#popup-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#popup-close:hover {
+    background-color: grey;
+}
 
 /* DESKTOP */
 
 @media  screen and (min-width: 1024px) {
+
+    
+  
+
+    .slide-accueil{
+        width:80%;
+        height: 500px;
+        object-fit: cover;
+        margin-top: 30px;
+
+    }
     
     .date{
         display: flex;
@@ -129,13 +240,21 @@ footer{
 
     .navbar-nav{
         background-color: #988780;
-        
+        border-radius: 50px; 
+        padding-right: 30px;  
+    }
+
+    .nav-item{
+        padding-left: 30px;
+        text-transform: uppercase;
     }
 
     #navbar-expand{
         visibility: visible;
+     
     }
 
+   
     #icons-accueil{
         visibility: visible;
     }
@@ -152,6 +271,7 @@ footer{
         border-radius: 50%;
     }
 
+
     footer{
         padding: 30px;
         font-size: large;
@@ -160,5 +280,28 @@ footer{
        
     }
     
+    #grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-auto-rows: 250px;
+        gap: 5px;
+        height: auto;
+        padding: 20px 200px;
+    
+    }
 
+    #filters {
+        margin-bottom: 10px;
+        padding: 5px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+    }
+
+    #all, #cheese, #starter, #main, #dessert {
+        padding: 5px;
+        margin: 10px;
+    }
 }
+
+

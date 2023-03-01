@@ -5,7 +5,6 @@ const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric
 const dateLong = new Date().toLocaleString('fr-FR', options);
 const heure = new Date().getHours()
 
-console.log(heure)
 
 today.innerHTML = `Nous sommes le ${dateLong}`
 
@@ -44,4 +43,50 @@ today.innerHTML = `Nous sommes le ${dateLong}`
 
    open(heure, horairesJourCourant);
 
+ // GALERIE D'IMAGES
+
+ let allGridItems = [...document.getElementsByClassName("grid-item")];
+ let popupBg = document.getElementById("popup-bg");
+ let popupImg = document.getElementById("popup-img");
  
+ const openPopup = (e) => {
+     let clickedImageSrc = e.target.src;
+     popupBg.classList.add("active");
+     popupImg.src = clickedImageSrc;
+ };
+ 
+ const closePopup = () => {
+     popupBg.classList.remove("active");
+ };
+ 
+ allGridItems.forEach((el) => el.addEventListener("click", openPopup));
+ 
+ popupImg.addEventListener("click", (e) => e.stopPropagation());
+ popupBg.addEventListener("click", closePopup);
+ 
+
+ // FILTRES GALERIES D'IMAGES
+ window.onload = () => {
+  let filters = document.querySelectorAll("#filters div");
+  console.log(filters)
+
+  for(let filter of filters){
+    
+    filter.addEventListener("click", () =>{
+          let tag = this.id ;
+        
+          let images = document.querySelectorAll("#grid img");
+          console.log(tag)
+          for(let image of images){
+              image.classList.replace("active", "inactive");
+
+              if(tag in image.dataset || tag === "all"){
+                  image.classList.replace("inactive", "active");
+
+                  
+              }
+          }
+      });
+  }
+}
+

@@ -69,24 +69,25 @@
         <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-center mx-auto" id="navbarNav2">
-        <ul class="navbar-nav ">
-            <li class="nav-item">
-            <a class="nav-link  " aria-current="page" href="../index.php">Accueil</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="../pages/carte.php">Carte</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="../pages/menus.php">Menus</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link " href="../pages/galerie.php">Galerie d'image</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link " href="../pages/reservations.php">Réserver une table</a>
-            </li>
-        </ul>
+        <div class="collapse navbar-collapse justify-content-center mx-auto " id="navbarNav2">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                <a class="nav-link  " aria-current="page" href="../index.php">Accueil</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link" href="../pages/carte.php">Carte</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link" href="../pages/menus.php">Menus</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link " href="../pages/galerie.php">Galerie d'image</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link " href="../pages/reservations.php">Réserver une table</a>
+                </li>
+            </ul>
+                
         </div>
     </div>
 </nav>
