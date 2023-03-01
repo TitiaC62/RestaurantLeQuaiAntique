@@ -250,14 +250,13 @@ li{
     font-style: italic;
 }
 
-
+/* =========================================================== */
 /* DESKTOP */
 
 @media  screen and (min-width: 1024px) {
 
-    
+    /*ACCUEIL DESKTOP*/
   
-
     .slide-accueil{
         width:80%;
         height: 500px;
@@ -277,6 +276,15 @@ li{
         width: 10rem;
     }
 
+  .img-line{
+        height: 120px;
+        width: 120px;
+        left: 240px;
+        top: 647px;
+        border-radius: 50%;
+    }
+
+    /*NAVBAR DESKTOP*/
     nav{  
         margin: 10px;  
     }
@@ -306,14 +314,7 @@ li{
         visibility: hidden;
     }
 
-    .img-line{
-        height: 120px;
-        width: 120px;
-        left: 240px;
-        top: 647px;
-        border-radius: 50%;
-    }
-
+  /*FOOTER DESKTOP*/
 
     footer{
         padding: 30px;
@@ -322,7 +323,23 @@ li{
         justify-content: space-between;
        
     }
+
+    /*CARTE DESKTOP*/
     
+    
+.title, .price, .ingredients{
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    
+}
+
+
+
+
+/*GALERIE DESKTOP*/
+
     #grid {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
