@@ -210,10 +210,22 @@ p{
 
 
 /*CARTE */
+
+.titrecarte{
+    color:#988780;
+    border: 1px solid #988780;
+    margin: 0 270px;
+    padding: 5px;
+    text-align: center;
+    background-color: #E7DED9;
+}
+
 .titreh2{
 text-shadow: 1px 5px 5px #E7DED9 ;
 text-align: center;
+margin-top: 50px;
 }
+
  .titreh3{
     color: #988780;
     font-weight: bolder;
@@ -226,7 +238,6 @@ text-align: center;
 
 .title, .price{
     display: flex;
-    
     justify-content: space-between;
     
     
@@ -330,7 +341,7 @@ li{
 .title, .price, .ingredients{
     
     margin-left: 150px;
-    margin-right: 150px;
+    margin-right: 100px;
     
     
 }
