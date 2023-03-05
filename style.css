@@ -211,14 +211,16 @@ p{
 
 /*CARTE */
 
+
+
 .titrecarte{
     color:#988780;
     border: 1px solid #988780;
-    margin: 0 270px;
     padding: 5px;
     text-align: center;
     background-color: #E7DED9;
 }
+
 
 .titreh2{
 text-shadow: 1px 5px 5px #E7DED9 ;
@@ -230,6 +232,7 @@ margin-top: 50px;
     color: #988780;
     font-weight: bolder;
     text-align: center;
+    margin: 15px;
     
     
 } 
@@ -248,18 +251,21 @@ margin-top: 50px;
     padding: 0;
 }
 
-ul{
+.ul{
     margin-bottom: 10px;
-    padding-left: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: 0;
 }
 
-li{
-    padding: 3px;
-}
+
 
 .ingredients{
     font-style: italic;
 }
+
+
+
 
 /* =========================================================== */
 /* DESKTOP */
@@ -346,6 +352,14 @@ li{
     
 }
 
+.titrecarte{
+    color:#988780;
+    border: 1px solid #988780;
+    margin: 0 270px;
+    padding: 5px;
+    text-align: center;
+    background-color: #E7DED9;
+}
 
 
 

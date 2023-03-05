@@ -7,7 +7,7 @@
     <h2 class="titreh2">Entrées</h2>
 
         <div >
-               <ul>
+               <ul class="ul">
                    <li class="title">
                        <span>Salade verte </span>             
                        <span class="price">2.90€ </span>
@@ -21,7 +21,7 @@
                        <span class="price">7.20€ </span>
                    </li>
                    <li class="title">
-                       <span>Salade de chèvre chaud sur toast au miel XXL </span>             
+                       <span>Salade de chèvre chaud au miel XXL </span>             
                        <span class="price">12.50€ </span>
                    </li>  
                    <li class="paragrapheliste">
@@ -37,7 +37,7 @@
                    </li>    
                   
                    <li class="title">
-                       <span>Camembert rôti et sa charcuterie XXL </span>
+                       <span>Camembert rôti </span>
                        <span class="price">16.50€ </span>
                    </li>
                    <li class="paragrapheliste">
@@ -48,13 +48,13 @@
 
     <h2 class="titreh2">Plats</h2>
 
-    <ul>    <h3 class="titreh3"> Les viandes </h3>
+    <ul class="ul">    <h3 class="titreh3"> Les viandes </h3>
                        <li class="title">
-                           <span>Steak haché façon bouchère origine France 180 g </span>
+                           <span>Steak haché façon bouchère  </span>
                            <span class="price">11.80€ </span>
                        </li>
                        <li class="title">
-                           <span>Pavé du boucher origine UE 180g </span>
+                           <span>Pavé du boucher </span>
                            <span class="price">18.50€ </span>
                        </li>
                        <li class="title">
@@ -62,6 +62,7 @@
                            <span class="price">17.50€ </span>
                        </li>
 
+                        
 
             <h3 class="titreh3"> Les spécialités savoyardes </h3>
                       
@@ -82,7 +83,7 @@
                         </li>
 
                         <li class="title">
-                           <span>Raclette (2 personnes mini)</span>
+                           <span>Raclette (2 pers mini)</span>
                            <span class="price"> 21€ / personne </span>
                        </li>
                        <li class="paragrapheliste">
@@ -90,7 +91,7 @@
                         </li>
 
                         <li class="title">
-                           <span>Fondue soyarde (2 personnes mini) </span>
+                           <span>Fondue soyarde (2 pers mini) </span>
                            <span class="price">19.80€ </span>
                        </li>
                        <li class="paragrapheliste">
@@ -117,7 +118,7 @@
         
     <div >
        
-                   <ul>
+                   <ul class="ul">
                        <li class="title">
                            <span>Ile Flottante </span>
                            <span class="price">6.80€ </span>
@@ -131,7 +132,7 @@
                            <span class="price">4.20€ </span>
                        </li>
                        <li class="title">
-                           <span>Tarte tatin et sa boule de glace vanille </span>
+                           <span>Tarte tatin + glace vanille </span>
                            <span class="price">7.50€ </span>
                        </li>
                        <li class="title">
@@ -188,7 +189,7 @@
 
     
             <h3 class="titreh3"> Boissons sans alcool </h3>
-                <ul>
+                <ul class="ul">
                     <li class="title">
                         <span>Cristaline plastique (50cl)</span>
                         <span class="price" >1.80€</span>
@@ -218,7 +219,7 @@
                 </ul>
                 
             <h3 class="titreh3"> Bières spéciales </h3>
-                   <ul>
+                   <ul class="ul">
                         <li class="title">
                           <span>Abbaye Pression </span>
                           <span class="price">3.50€</span>
@@ -258,7 +259,7 @@
     
 
         <h3 class="titreh3"> Cocktail sans alcool</h3>
-            <ul>
+            <ul class="ul">
                 <li class="title">
                     <span>Suprême</span>
                     <span class="price">5.50€</span>
@@ -295,7 +296,7 @@
     
 
            <h3 class="titreh3"> Cocktail Alcool (18cl)</h3> 
-            <ul>
+            <ul class="ul">
                 <li class="title">
                     <span>Mojito</span>
                     <span class="price">7.50€</span>
