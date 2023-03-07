@@ -7,7 +7,7 @@
     <h2 class="titreh2">Entrées</h2>
 
         <div >
-               <ul class="ul">
+               <ul class="pl-0">
                    <li class="title">
                        <span>Salade verte </span>             
                        <span class="price">2.90€ </span>

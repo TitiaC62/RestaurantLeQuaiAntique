@@ -54,7 +54,7 @@
 </div>
 
 
-<h1 class="title">Bienvenue chez "Le Quai Antique"</h1>
+<h1 class="titleh1">Bienvenue chez "Le Quai Antique"</h1>
 
 
 <div class="d-flex justify-content-center">

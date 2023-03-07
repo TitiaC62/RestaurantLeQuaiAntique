@@ -1,13 +1,29 @@
-/* IMPORT POLICES */
+/*  POLICES */
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* TITLE */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* SUB TITRE */
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* PARAGRAPHE */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+.titleh1, .titrecarte, .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+}
+
+.titreh2, .titreh3{
+    font-family: 'Lora', sans-serif;
+}
+
+/* ======================================================================== */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif; ;
+    font-family: 'Hind Madurai', sans-serif;
     color: #E7DED9;
    
 }
@@ -24,12 +40,6 @@
     padding: 0 10px;
 }
 
-
-.title{
-    font-family: 'Lora', sans-serif;
-    text-align: center;
-    
-}
 
 .logo{
     height: 5rem;
@@ -84,7 +94,6 @@ footer{
 /* ACCUEIL : BODY */
 
 
-
 .img-line{
     
 width: 62px;
@@ -97,7 +106,6 @@ object-fit: cover;
 
 p{
     padding: 5px;
-    font-family:  'Montserrat', sans-serif; ;
 }
 
 
@@ -109,6 +117,50 @@ p{
     background-color:#E7DED9;
     align-items: center;
 }
+
+
+
+/*CARTE */
+
+
+
+.titrecarte{
+    color:#988780;
+    border: 1px solid #988780;
+    padding: 5px;
+    text-align: center;
+    background-color: #E7DED9;
+}
+
+
+.titreh2{
+text-shadow: 1px 5px 5px #E7DED9 ;
+text-align: center;
+margin-top: 50px;
+
+}
+
+ .titreh3{
+    color: #988780;
+    font-weight: bolder;
+    text-align: center;
+    margin: 15px;  
+} 
+
+.title, .price{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.paragrapheliste, ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients{
+    font-style: italic;
+}
+
 
 /* GALERIE */
 
@@ -209,61 +261,6 @@ p{
 }
 
 
-/*CARTE */
-
-
-
-.titrecarte{
-    color:#988780;
-    border: 1px solid #988780;
-    padding: 5px;
-    text-align: center;
-    background-color: #E7DED9;
-}
-
-
-.titreh2{
-text-shadow: 1px 5px 5px #E7DED9 ;
-text-align: center;
-margin-top: 50px;
-}
-
- .titreh3{
-    color: #988780;
-    font-weight: bolder;
-    text-align: center;
-    margin: 15px;
-    
-    
-} 
-
-
-
-.title, .price{
-    display: flex;
-    justify-content: space-between;
-    
-    
-}
-
-.paragrapheliste, ul{
-    list-style-type: none;
-    padding: 0;
-}
-
-.ul{
-    margin-bottom: 10px;
-    padding-left: 1px;
-    padding-right: 1px;
-    margin-left: 0;
-}
-
-
-
-.ingredients{
-    font-style: italic;
-}
-
 
 
 
@@ -303,7 +300,7 @@ margin-top: 50px;
 
     /*NAVBAR DESKTOP*/
     nav{  
-        margin: 10px;  
+        margin: 10px;
     }
 
     .navbar-nav{
